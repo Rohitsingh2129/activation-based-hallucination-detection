@@ -1,0 +1,90 @@
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading microsoft/Phi-3-mini-4k-instruct ...
+Loading weights:   0%|          | 0/195 [00:00<?, ?it/s]Loading weights:   1%|          | 1/195 [00:00<00:30,  6.36it/s]Loading weights:   5%|5         | 10/195 [00:00<00:04, 44.22it/s]Loading weights:   9%|8         | 17/195 [00:00<00:03, 51.24it/s]Loading weights:  15%|#4        | 29/195 [00:00<00:02, 65.93it/s]Loading weights:  21%|##1       | 41/195 [00:00<00:02, 73.75it/s]Loading weights:  27%|##7       | 53/195 [00:00<00:01, 83.73it/s]Loading weights:  33%|###3      | 65/195 [00:00<00:01, 85.50it/s]Loading weights:  39%|###8      | 76/195 [00:01<00:01, 89.95it/s]Loading weights:  44%|####4     | 86/195 [00:01<00:01, 91.40it/s]Loading weights:  49%|####9     | 96/195 [00:01<00:01, 81.28it/s]Loading weights:  54%|#####4    | 106/195 [00:01<00:01, 84.04it/s]Loading weights:  59%|#####9    | 116/195 [00:01<00:00, 86.51it/s]Loading weights:  64%|######4   | 125/195 [00:01<00:00, 83.96it/s]Loading weights:  70%|######9   | 136/195 [00:01<00:00, 88.65it/s]Loading weights:  75%|#######4  | 146/195 [00:01<00:00, 89.83it/s]Loading weights:  80%|########  | 156/195 [00:01<00:00, 89.22it/s]Loading weights:  85%|########4 | 165/195 [00:02<00:00, 87.00it/s]Loading weights:  89%|########9 | 174/195 [00:02<00:00, 80.40it/s]Loading weights:  95%|#########4| 185/195 [00:02<00:00, 70.17it/s]Loading weights:  99%|#########8| 193/195 [00:02<00:00, 67.23it/s]Loading weights: 100%|##########| 195/195 [00:02<00:00, 77.13it/s]
+Using the latest cached version of the dataset since truthfulqa/truthful_qa couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'multiple_choice' at C:\Users\rohit\.cache\huggingface\datasets\truthfulqa___truthful_qa\multiple_choice\0.0.0\741b8276f2d1982aa3d5b832d3ee81ed3b896490 (last modified on Fri Aug 21 01:39:56 2026).
+Built 4114 (question, answer) examples from TruthfulQA
+  processed 50/4114
+  processed 100/4114
+  processed 150/4114
+  processed 200/4114
+  processed 250/4114
+  processed 300/4114
+  processed 350/4114
+  processed 400/4114
+  processed 450/4114
+  processed 500/4114
+  processed 550/4114
+  processed 600/4114
+  processed 650/4114
+  processed 700/4114
+  processed 750/4114
+  processed 800/4114
+  processed 850/4114
+  processed 900/4114
+  processed 950/4114
+  processed 1000/4114
+  processed 1050/4114
+  processed 1100/4114
+  processed 1150/4114
+  processed 1200/4114
+  processed 1250/4114
+  processed 1300/4114
+  processed 1350/4114
+  processed 1400/4114
+  processed 1450/4114
+  processed 1500/4114
+  processed 1550/4114
+  processed 1600/4114
+  processed 1650/4114
+  processed 1700/4114
+  processed 1750/4114
+  processed 1800/4114
+  processed 1850/4114
+  processed 1900/4114
+  processed 1950/4114
+  processed 2000/4114
+  processed 2050/4114
+  processed 2100/4114
+  processed 2150/4114
+  processed 2200/4114
+  processed 2250/4114
+  processed 2300/4114
+  processed 2350/4114
+  processed 2400/4114
+  processed 2450/4114
+  processed 2500/4114
+  processed 2550/4114
+  processed 2600/4114
+  processed 2650/4114
+  processed 2700/4114
+  processed 2750/4114
+  processed 2800/4114
+  processed 2850/4114
+  processed 2900/4114
+  processed 2950/4114
+  processed 3000/4114
+  processed 3050/4114
+  processed 3100/4114
+  processed 3150/4114
+  processed 3200/4114
+  processed 3250/4114
+  processed 3300/4114
+  processed 3350/4114
+  processed 3400/4114
+  processed 3450/4114
+  processed 3500/4114
+  processed 3550/4114
+  processed 3600/4114
+  processed 3650/4114
+  processed 3700/4114
+  processed 3750/4114
+  processed 3800/4114
+  processed 3850/4114
+  processed 3900/4114
+  processed 3950/4114
+  processed 4000/4114
+  processed 4050/4114
+  processed 4100/4114
+Saved (4114, 33, 3072) activations to data\activations_phi3_truthfulqa.npz
+Label balance: 3297 hallucinated / 4114 total

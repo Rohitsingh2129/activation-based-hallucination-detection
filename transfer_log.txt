@@ -1,0 +1,14 @@
+
+=== Transfer: phi3 -> llama ===
+Source (phi3) own best layer: 17 (AUROC=0.925)
+Target (llama) own best layer: 12 (AUROC=0.916)
+Best transfer AUROC: 0.521 at target layer 0
+(Target's own best-layer AUROC was 0.916 at layer 12)
+Saved to results\transfer_phi3_to_llama.csv
+
+=== Transfer: llama -> phi3 ===
+Source (llama) own best layer: 12 (AUROC=0.916)
+Target (phi3) own best layer: 17 (AUROC=0.925)
+Best transfer AUROC: 0.558 at target layer 23
+(Target's own best-layer AUROC was 0.925 at layer 17)
+Saved to results\transfer_llama_to_phi3.csv

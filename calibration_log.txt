@@ -1,0 +1,27 @@
+
+=== Calibration analysis: qwen ===
+Best layer: 20
+ECE before temperature scaling: 0.0914
+Fitted temperature T: 3.938
+ECE after temperature scaling: 0.0604
+Saved reliability diagram to results\calibration_qwen.png
+
+=== Calibration analysis: phi3 ===
+Best layer: 17
+ECE before temperature scaling: 0.0769
+Fitted temperature T: 3.335
+ECE after temperature scaling: 0.0324
+Saved reliability diagram to results\calibration_phi3.png
+
+=== Calibration analysis: llama ===
+Best layer: 12
+ECE before temperature scaling: 0.0780
+Fitted temperature T: 3.524
+ECE after temperature scaling: 0.0447
+Saved reliability diagram to results\calibration_llama.png
+
+Saved summary to results\calibration_summary.csv
+model  best_layer  ece_before  temperature  ece_after
+ qwen          20    0.091432     3.938495   0.060382
+ phi3          17    0.076864     3.334646   0.032427
+llama          12    0.078015     3.523898   0.044659

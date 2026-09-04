@@ -1,0 +1,33 @@
+
+=== FEVER probe: qwen (fp16) ===
+Best layer: 25 (AUROC=0.854, F1=0.751)
+Saved to results\layer_wise_auroc_fever_qwen.csv
+
+=== FEVER probe: qwen (4bit) ===
+Best layer: 25 (AUROC=0.847, F1=0.764)
+Saved to results\layer_wise_auroc_fever_qwen_4bit.csv
+
+=== FEVER probe: phi3 (fp16) ===
+Best layer: 18 (AUROC=0.841, F1=0.764)
+Saved to results\layer_wise_auroc_fever_phi3.csv
+
+=== FEVER probe: phi3 (4bit) ===
+Best layer: 18 (AUROC=0.838, F1=0.760)
+Saved to results\layer_wise_auroc_fever_phi3_4bit.csv
+
+=== FEVER probe: llama (fp16) ===
+Best layer: 14 (AUROC=0.852, F1=0.796)
+Saved to results\layer_wise_auroc_fever_llama.csv
+
+=== FEVER probe: llama (4bit) ===
+Best layer: 12 (AUROC=0.848, F1=0.777)
+Saved to results\layer_wise_auroc_fever_llama_4bit.csv
+
+=== FEVER summary (all models, both quantizations) ===
+model quant  best_layer    auroc
+ qwen  fp16          25 0.853847
+ qwen  4bit          25 0.847450
+ phi3  fp16          18 0.841128
+ phi3  4bit          18 0.838200
+llama  fp16          14 0.851725
+llama  4bit          12 0.847781

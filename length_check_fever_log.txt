@@ -1,0 +1,10 @@
+Filter:   0%|          | 0/9999 [00:00<?, ? examples/s]Filter: 100%|##########| 9999/9999 [00:00<00:00, 127302.28 examples/s]
+Filter:   0%|          | 0/9999 [00:00<?, ? examples/s]Filter: 100%|##########| 9999/9999 [00:00<00:00, 141725.99 examples/s]
+Built 4000 examples (2000 SUPPORTS / 2000 REFUTES)
+SUPPORTS (truthful): mean_words=8.48 median_words=8.0 mean_chars=50.1
+REFUTES (hallucinated): mean_words=8.53 median_words=8.0 mean_chars=50.1
+
+Length-only AUROC -- word count: 0.5112  char count: 0.4839
+
+No meaningful length confound detected (< 0.65): headline probe AUROC on FEVER can be reported without a length ablation.
+Saved to results\length_confound_check_fever.csv

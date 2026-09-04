@@ -1,0 +1,89 @@
+Loading meta-llama/Llama-3.2-3B-Instruct in 4-bit (NF4) ...
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s]Loading weights:   0%|          | 1/254 [00:00<02:19,  1.81it/s]Loading weights:   1%|1         | 3/254 [00:00<00:48,  5.13it/s]Loading weights:   5%|4         | 12/254 [00:00<00:10, 23.17it/s]Loading weights:   9%|8         | 22/254 [00:00<00:05, 39.74it/s]Loading weights:  13%|#3        | 34/254 [00:01<00:03, 59.14it/s]Loading weights:  18%|#7        | 45/254 [00:01<00:02, 71.45it/s]Loading weights:  22%|##2       | 57/254 [00:01<00:02, 84.21it/s]Loading weights:  27%|##6       | 68/254 [00:01<00:02, 87.30it/s]Loading weights:  32%|###2      | 82/254 [00:01<00:01, 101.10it/s]Loading weights:  37%|###7      | 94/254 [00:01<00:01, 97.53it/s] Loading weights:  41%|####1     | 105/254 [00:01<00:01, 93.46it/s]Loading weights:  45%|####5     | 115/254 [00:01<00:01, 94.89it/s]Loading weights:  49%|####9     | 125/254 [00:01<00:01, 93.33it/s]Loading weights:  53%|#####3    | 135/254 [00:02<00:01, 92.06it/s]Loading weights:  57%|#####7    | 145/254 [00:02<00:01, 93.64it/s]Loading weights:  61%|######1   | 155/254 [00:02<00:01, 95.38it/s]Loading weights:  65%|######4   | 165/254 [00:02<00:00, 91.03it/s]Loading weights:  69%|######8   | 175/254 [00:02<00:00, 87.99it/s]Loading weights:  73%|#######2  | 185/254 [00:02<00:00, 87.16it/s]Loading weights:  78%|#######7  | 197/254 [00:02<00:00, 93.97it/s]Loading weights:  81%|########1 | 207/254 [00:02<00:00, 94.29it/s]Loading weights:  86%|########6 | 219/254 [00:02<00:00, 95.25it/s]Loading weights:  90%|######### | 229/254 [00:03<00:00, 91.70it/s]Loading weights:  94%|#########4| 239/254 [00:03<00:00, 89.78it/s]Loading weights:  98%|#########8| 249/254 [00:03<00:00, 92.36it/s]Loading weights: 100%|##########| 254/254 [00:03<00:00, 77.36it/s]
+Using the latest cached version of the dataset since truthfulqa/truthful_qa couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'multiple_choice' at C:\Users\rohit\.cache\huggingface\datasets\truthfulqa___truthful_qa\multiple_choice\0.0.0\741b8276f2d1982aa3d5b832d3ee81ed3b896490 (last modified on Fri Aug 21 01:39:56 2026).
+Built 4114 (question, answer) examples from TruthfulQA
+  processed 50/4114
+  processed 100/4114
+  processed 150/4114
+  processed 200/4114
+  processed 250/4114
+  processed 300/4114
+  processed 350/4114
+  processed 400/4114
+  processed 450/4114
+  processed 500/4114
+  processed 550/4114
+  processed 600/4114
+  processed 650/4114
+  processed 700/4114
+  processed 750/4114
+  processed 800/4114
+  processed 850/4114
+  processed 900/4114
+  processed 950/4114
+  processed 1000/4114
+  processed 1050/4114
+  processed 1100/4114
+  processed 1150/4114
+  processed 1200/4114
+  processed 1250/4114
+  processed 1300/4114
+  processed 1350/4114
+  processed 1400/4114
+  processed 1450/4114
+  processed 1500/4114
+  processed 1550/4114
+  processed 1600/4114
+  processed 1650/4114
+  processed 1700/4114
+  processed 1750/4114
+  processed 1800/4114
+  processed 1850/4114
+  processed 1900/4114
+  processed 1950/4114
+  processed 2000/4114
+  processed 2050/4114
+  processed 2100/4114
+  processed 2150/4114
+  processed 2200/4114
+  processed 2250/4114
+  processed 2300/4114
+  processed 2350/4114
+  processed 2400/4114
+  processed 2450/4114
+  processed 2500/4114
+  processed 2550/4114
+  processed 2600/4114
+  processed 2650/4114
+  processed 2700/4114
+  processed 2750/4114
+  processed 2800/4114
+  processed 2850/4114
+  processed 2900/4114
+  processed 2950/4114
+  processed 3000/4114
+  processed 3050/4114
+  processed 3100/4114
+  processed 3150/4114
+  processed 3200/4114
+  processed 3250/4114
+  processed 3300/4114
+  processed 3350/4114
+  processed 3400/4114
+  processed 3450/4114
+  processed 3500/4114
+  processed 3550/4114
+  processed 3600/4114
+  processed 3650/4114
+  processed 3700/4114
+  processed 3750/4114
+  processed 3800/4114
+  processed 3850/4114
+  processed 3900/4114
+  processed 3950/4114
+  processed 4000/4114
+  processed 4050/4114
+  processed 4100/4114
+Saved (4114, 29, 3072) activations to data\activations_llama_truthfulqa_4bit.npz
+Label balance: 3297 hallucinated / 4114 total

@@ -1,0 +1,38 @@
+Loaded 4114 examples, 33 layers, dim=3072
+Label balance: 3297 hallucinated / 4114 total
+Layer  0: AUROC=0.715  F1=0.853  Acc=0.767
+Layer  1: AUROC=0.736  F1=0.869  Acc=0.790
+Layer  2: AUROC=0.758  F1=0.885  Acc=0.814
+Layer  3: AUROC=0.766  F1=0.882  Acc=0.809
+Layer  4: AUROC=0.790  F1=0.890  Acc=0.821
+Layer  5: AUROC=0.820  F1=0.896  Acc=0.834
+Layer  6: AUROC=0.820  F1=0.898  Acc=0.837
+Layer  7: AUROC=0.814  F1=0.894  Acc=0.831
+Layer  8: AUROC=0.825  F1=0.903  Acc=0.843
+Layer  9: AUROC=0.839  F1=0.905  Acc=0.847
+Layer 10: AUROC=0.837  F1=0.910  Acc=0.854
+Layer 11: AUROC=0.862  F1=0.907  Acc=0.849
+Layer 12: AUROC=0.877  F1=0.922  Acc=0.874
+Layer 13: AUROC=0.887  F1=0.925  Acc=0.878
+Layer 14: AUROC=0.901  F1=0.926  Acc=0.881
+Layer 15: AUROC=0.906  F1=0.934  Acc=0.894
+Layer 16: AUROC=0.914  F1=0.940  Acc=0.903
+Layer 17: AUROC=0.925  F1=0.938  Acc=0.899
+Layer 18: AUROC=0.922  F1=0.937  Acc=0.898
+Layer 19: AUROC=0.921  F1=0.938  Acc=0.899
+Layer 20: AUROC=0.916  F1=0.934  Acc=0.893
+Layer 21: AUROC=0.919  F1=0.929  Acc=0.886
+Layer 22: AUROC=0.911  F1=0.927  Acc=0.882
+Layer 23: AUROC=0.908  F1=0.925  Acc=0.880
+Layer 24: AUROC=0.900  F1=0.926  Acc=0.880
+Layer 25: AUROC=0.895  F1=0.921  Acc=0.874
+Layer 26: AUROC=0.885  F1=0.919  Acc=0.869
+Layer 27: AUROC=0.882  F1=0.914  Acc=0.861
+Layer 28: AUROC=0.873  F1=0.920  Acc=0.870
+Layer 29: AUROC=0.879  F1=0.917  Acc=0.866
+Layer 30: AUROC=0.873  F1=0.919  Acc=0.869
+Layer 31: AUROC=0.870  F1=0.921  Acc=0.872
+Layer 32: AUROC=0.844  F1=0.916  Acc=0.864
+
+Saved layer-wise results to results\layer_wise_auroc_phi3.csv
+Best layer: 17 (AUROC=0.925, F1=0.938)

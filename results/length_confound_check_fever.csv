@@ -1,0 +1,3 @@
+label,name,mean_words,median_words,mean_chars,median_chars,length_only_auroc_word,length_only_auroc_char,confound_flagged
+0,SUPPORTS (truthful),8.4845,8.0,50.1305,47.0,0.5111687500000001,0.48389999999999994,False
+1,REFUTES (hallucinated),8.5315,8.0,50.063,48.0,0.5111687500000001,0.48389999999999994,False

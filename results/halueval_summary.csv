@@ -1,0 +1,4 @@
+model,best_layer,auroc
+qwen,20,0.985759375
+phi3,20,0.9872875
+llama,11,0.9891937500000001

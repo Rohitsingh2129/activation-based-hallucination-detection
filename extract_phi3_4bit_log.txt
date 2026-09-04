@@ -1,0 +1,89 @@
+Loading microsoft/Phi-3-mini-4k-instruct in 4-bit (NF4) ...
+Loading weights:   0%|          | 0/195 [00:00<?, ?it/s]Loading weights:   1%|1         | 2/195 [00:00<00:24,  7.82it/s]Loading weights:   2%|2         | 4/195 [00:00<00:20,  9.35it/s]Loading weights:   4%|3         | 7/195 [00:00<00:12, 14.99it/s]Loading weights:   6%|5         | 11/195 [00:00<00:10, 17.58it/s]Loading weights:   8%|8         | 16/195 [00:00<00:07, 25.10it/s]Loading weights:  10%|#         | 20/195 [00:00<00:06, 28.03it/s]Loading weights:  12%|#2        | 24/195 [00:01<00:05, 30.79it/s]Loading weights:  15%|#4        | 29/195 [00:01<00:05, 32.39it/s]Loading weights:  18%|#7        | 35/195 [00:01<00:04, 39.09it/s]Loading weights:  21%|##1       | 41/195 [00:01<00:03, 41.17it/s]Loading weights:  24%|##4       | 47/195 [00:01<00:03, 45.29it/s]Loading weights:  27%|##7       | 53/195 [00:01<00:02, 47.92it/s]Loading weights:  30%|###       | 59/195 [00:01<00:02, 50.72it/s]Loading weights:  33%|###3      | 65/195 [00:01<00:02, 46.23it/s]Loading weights:  36%|###5      | 70/195 [00:02<00:02, 46.12it/s]Loading weights:  38%|###8      | 75/195 [00:02<00:02, 42.23it/s]Loading weights:  41%|####1     | 80/195 [00:02<00:03, 35.75it/s]Loading weights:  43%|####3     | 84/195 [00:02<00:03, 34.57it/s]Loading weights:  45%|####5     | 88/195 [00:02<00:03, 34.83it/s]Loading weights:  47%|####7     | 92/195 [00:02<00:03, 31.07it/s]Loading weights:  49%|####9     | 96/195 [00:02<00:03, 28.43it/s]Loading weights:  51%|#####1    | 100/195 [00:03<00:03, 30.43it/s]Loading weights:  53%|#####3    | 104/195 [00:03<00:03, 28.82it/s]Loading weights:  55%|#####4    | 107/195 [00:03<00:03, 26.55it/s]Loading weights:  57%|#####7    | 112/195 [00:03<00:02, 31.07it/s]Loading weights:  59%|#####9    | 116/195 [00:03<00:02, 33.20it/s]Loading weights:  64%|######3   | 124/195 [00:03<00:01, 43.38it/s]Loading weights:  67%|######7   | 131/195 [00:03<00:01, 46.06it/s]Loading weights:  71%|#######1  | 139/195 [00:03<00:01, 54.24it/s]Loading weights:  74%|#######4  | 145/195 [00:04<00:00, 55.29it/s]Loading weights:  78%|#######7  | 152/195 [00:04<00:00, 56.86it/s]Loading weights:  82%|########2 | 160/195 [00:04<00:00, 58.26it/s]Loading weights:  85%|########5 | 166/195 [00:04<00:00, 54.29it/s]Loading weights:  88%|########8 | 172/195 [00:04<00:00, 50.69it/s]Loading weights:  91%|#########1| 178/195 [00:04<00:00, 46.53it/s]Loading weights:  95%|#########4| 185/195 [00:04<00:00, 46.73it/s]Loading weights:  98%|#########7| 191/195 [00:04<00:00, 48.57it/s]Loading weights: 100%|##########| 195/195 [00:04<00:00, 39.09it/s]
+Using the latest cached version of the dataset since truthfulqa/truthful_qa couldn't be found on the Hugging Face Hub (offline mode is enabled).
+Found the latest cached dataset configuration 'multiple_choice' at C:\Users\rohit\.cache\huggingface\datasets\truthfulqa___truthful_qa\multiple_choice\0.0.0\741b8276f2d1982aa3d5b832d3ee81ed3b896490 (last modified on Fri Aug 21 01:39:56 2026).
+Built 4114 (question, answer) examples from TruthfulQA
+  processed 50/4114
+  processed 100/4114
+  processed 150/4114
+  processed 200/4114
+  processed 250/4114
+  processed 300/4114
+  processed 350/4114
+  processed 400/4114
+  processed 450/4114
+  processed 500/4114
+  processed 550/4114
+  processed 600/4114
+  processed 650/4114
+  processed 700/4114
+  processed 750/4114
+  processed 800/4114
+  processed 850/4114
+  processed 900/4114
+  processed 950/4114
+  processed 1000/4114
+  processed 1050/4114
+  processed 1100/4114
+  processed 1150/4114
+  processed 1200/4114
+  processed 1250/4114
+  processed 1300/4114
+  processed 1350/4114
+  processed 1400/4114
+  processed 1450/4114
+  processed 1500/4114
+  processed 1550/4114
+  processed 1600/4114
+  processed 1650/4114
+  processed 1700/4114
+  processed 1750/4114
+  processed 1800/4114
+  processed 1850/4114
+  processed 1900/4114
+  processed 1950/4114
+  processed 2000/4114
+  processed 2050/4114
+  processed 2100/4114
+  processed 2150/4114
+  processed 2200/4114
+  processed 2250/4114
+  processed 2300/4114
+  processed 2350/4114
+  processed 2400/4114
+  processed 2450/4114
+  processed 2500/4114
+  processed 2550/4114
+  processed 2600/4114
+  processed 2650/4114
+  processed 2700/4114
+  processed 2750/4114
+  processed 2800/4114
+  processed 2850/4114
+  processed 2900/4114
+  processed 2950/4114
+  processed 3000/4114
+  processed 3050/4114
+  processed 3100/4114
+  processed 3150/4114
+  processed 3200/4114
+  processed 3250/4114
+  processed 3300/4114
+  processed 3350/4114
+  processed 3400/4114
+  processed 3450/4114
+  processed 3500/4114
+  processed 3550/4114
+  processed 3600/4114
+  processed 3650/4114
+  processed 3700/4114
+  processed 3750/4114
+  processed 3800/4114
+  processed 3850/4114
+  processed 3900/4114
+  processed 3950/4114
+  processed 4000/4114
+  processed 4050/4114
+  processed 4100/4114
+Saved (4114, 33, 3072) activations to data\activations_phi3_truthfulqa_4bit.npz
+Label balance: 3297 hallucinated / 4114 total

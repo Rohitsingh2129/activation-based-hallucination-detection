@@ -1,0 +1,18 @@
+
+=== HaluEval probe: qwen ===
+Best layer: 20 (AUROC=0.986, F1=0.969)
+Saved to results\layer_wise_auroc_halueval_qwen.csv
+
+=== HaluEval probe: phi3 ===
+Best layer: 20 (AUROC=0.987, F1=0.971)
+Saved to results\layer_wise_auroc_halueval_phi3.csv
+
+=== HaluEval probe: llama ===
+Best layer: 11 (AUROC=0.989, F1=0.971)
+Saved to results\layer_wise_auroc_halueval_llama.csv
+
+=== HaluEval summary (all models) ===
+model  best_layer    auroc
+ qwen          20 0.985759
+ phi3          20 0.987287
+llama          11 0.989194

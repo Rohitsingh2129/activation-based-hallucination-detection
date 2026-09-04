@@ -1,0 +1,92 @@
+D:\Hallucination\.venv\Lib\site-packages\huggingface_hub\file_download.py:141: UserWarning: `huggingface_hub` cache-system uses symlinks by default to efficiently store duplicated files but your machine does not support them in C:\Users\rohit\.cache\huggingface\hub\models--meta-llama--Llama-3.2-3B-Instruct. Caching files will still work but in a degraded version that might require more space on your disk. This warning can be disabled by setting the `HF_HUB_DISABLE_SYMLINKS_WARNING` environment variable. For more details, see https://huggingface.co/docs/huggingface_hub/how-to-cache#limitations.
+To support symlinks on Windows, you either need to activate Developer Mode or to run Python as an administrator. In order to activate developer mode, see this article: https://docs.microsoft.com/en-us/windows/apps/get-started/enable-your-device-for-development
+  warnings.warn(message)
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Loading meta-llama/Llama-3.2-3B-Instruct ...
+Fetching 2 files:   0%|          | 0/2 [00:00<?, ?it/s]Fetching 2 files:  50%|#####     | 1/2 [03:26<03:26, 206.49s/it]Fetching 2 files: 100%|##########| 2/2 [07:53<00:00, 241.86s/it]Fetching 2 files: 100%|##########| 2/2 [07:53<00:00, 236.56s/it]
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s]Loading weights:   0%|          | 1/254 [00:00<01:04,  3.89it/s]Loading weights:  25%|##5       | 64/254 [00:00<00:00, 226.74it/s]Loading weights:  40%|###9      | 101/254 [00:00<00:00, 252.83it/s]Loading weights:  53%|#####3    | 135/254 [00:00<00:00, 265.06it/s]Loading weights:  66%|######5   | 167/254 [00:00<00:00, 267.47it/s]Loading weights:  79%|#######9  | 201/254 [00:00<00:00, 279.77it/s]Loading weights:  91%|#########1| 232/254 [00:00<00:00, 284.97it/s]Loading weights: 100%|##########| 254/254 [00:00<00:00, 254.14it/s]
+Built 4114 (question, answer) examples from TruthfulQA
+  processed 50/4114
+  processed 100/4114
+  processed 150/4114
+  processed 200/4114
+  processed 250/4114
+  processed 300/4114
+  processed 350/4114
+  processed 400/4114
+  processed 450/4114
+  processed 500/4114
+  processed 550/4114
+  processed 600/4114
+  processed 650/4114
+  processed 700/4114
+  processed 750/4114
+  processed 800/4114
+  processed 850/4114
+  processed 900/4114
+  processed 950/4114
+  processed 1000/4114
+  processed 1050/4114
+  processed 1100/4114
+  processed 1150/4114
+  processed 1200/4114
+  processed 1250/4114
+  processed 1300/4114
+  processed 1350/4114
+  processed 1400/4114
+  processed 1450/4114
+  processed 1500/4114
+  processed 1550/4114
+  processed 1600/4114
+  processed 1650/4114
+  processed 1700/4114
+  processed 1750/4114
+  processed 1800/4114
+  processed 1850/4114
+  processed 1900/4114
+  processed 1950/4114
+  processed 2000/4114
+  processed 2050/4114
+  processed 2100/4114
+  processed 2150/4114
+  processed 2200/4114
+  processed 2250/4114
+  processed 2300/4114
+  processed 2350/4114
+  processed 2400/4114
+  processed 2450/4114
+  processed 2500/4114
+  processed 2550/4114
+  processed 2600/4114
+  processed 2650/4114
+  processed 2700/4114
+  processed 2750/4114
+  processed 2800/4114
+  processed 2850/4114
+  processed 2900/4114
+  processed 2950/4114
+  processed 3000/4114
+  processed 3050/4114
+  processed 3100/4114
+  processed 3150/4114
+  processed 3200/4114
+  processed 3250/4114
+  processed 3300/4114
+  processed 3350/4114
+  processed 3400/4114
+  processed 3450/4114
+  processed 3500/4114
+  processed 3550/4114
+  processed 3600/4114
+  processed 3650/4114
+  processed 3700/4114
+  processed 3750/4114
+  processed 3800/4114
+  processed 3850/4114
+  processed 3900/4114
+  processed 3950/4114
+  processed 4000/4114
+  processed 4050/4114
+  processed 4100/4114
+Saved (4114, 29, 3072) activations to data\activations_llama_truthfulqa.npz
+Label balance: 3297 hallucinated / 4114 total

@@ -1,0 +1,34 @@
+Loaded 4114 examples, 29 layers, dim=3072
+Label balance: 3297 hallucinated / 4114 total
+Layer  0: AUROC=0.749  F1=0.878  Acc=0.803
+Layer  1: AUROC=0.763  F1=0.882  Acc=0.809
+Layer  2: AUROC=0.801  F1=0.892  Acc=0.826
+Layer  3: AUROC=0.810  F1=0.896  Acc=0.832
+Layer  4: AUROC=0.820  F1=0.891  Acc=0.826
+Layer  5: AUROC=0.814  F1=0.894  Acc=0.830
+Layer  6: AUROC=0.812  F1=0.907  Acc=0.849
+Layer  7: AUROC=0.847  F1=0.914  Acc=0.860
+Layer  8: AUROC=0.876  F1=0.907  Acc=0.852
+Layer  9: AUROC=0.883  F1=0.922  Acc=0.875
+Layer 10: AUROC=0.894  F1=0.926  Acc=0.881
+Layer 11: AUROC=0.909  F1=0.935  Acc=0.894
+Layer 12: AUROC=0.923  F1=0.935  Acc=0.896
+Layer 13: AUROC=0.909  F1=0.938  Acc=0.900
+Layer 14: AUROC=0.902  F1=0.932  Acc=0.891
+Layer 15: AUROC=0.912  F1=0.925  Acc=0.878
+Layer 16: AUROC=0.904  F1=0.927  Acc=0.882
+Layer 17: AUROC=0.900  F1=0.927  Acc=0.882
+Layer 18: AUROC=0.889  F1=0.917  Acc=0.866
+Layer 19: AUROC=0.885  F1=0.918  Acc=0.869
+Layer 20: AUROC=0.886  F1=0.918  Acc=0.868
+Layer 21: AUROC=0.881  F1=0.913  Acc=0.859
+Layer 22: AUROC=0.871  F1=0.902  Acc=0.842
+Layer 23: AUROC=0.862  F1=0.910  Acc=0.854
+Layer 24: AUROC=0.854  F1=0.912  Acc=0.858
+Layer 25: AUROC=0.851  F1=0.908  Acc=0.852
+Layer 26: AUROC=0.857  F1=0.916  Acc=0.864
+Layer 27: AUROC=0.846  F1=0.915  Acc=0.861
+Layer 28: AUROC=0.829  F1=0.908  Acc=0.849
+
+Saved layer-wise results to results\layer_wise_auroc_llama_4bit.csv
+Best layer: 12 (AUROC=0.923, F1=0.935)

@@ -1,0 +1,33 @@
+
+=== Calibration analysis (3-way split): qwen ===
+Split sizes -> train: 2468, val: 823, test: 823
+Best layer: 20
+Test AUROC (unaffected by temperature scaling): 0.903
+ECE before temperature scaling: 0.0908
+Fitted temperature T (from val split): 3.512
+ECE after temperature scaling: 0.0610
+Saved reliability diagram to results\calibration_qwen_v2.png
+
+=== Calibration analysis (3-way split): phi3 ===
+Split sizes -> train: 2468, val: 823, test: 823
+Best layer: 17
+Test AUROC (unaffected by temperature scaling): 0.912
+ECE before temperature scaling: 0.0833
+Fitted temperature T (from val split): 3.114
+ECE after temperature scaling: 0.0336
+Saved reliability diagram to results\calibration_phi3_v2.png
+
+=== Calibration analysis (3-way split): llama ===
+Split sizes -> train: 2468, val: 823, test: 823
+Best layer: 12
+Test AUROC (unaffected by temperature scaling): 0.907
+ECE before temperature scaling: 0.0892
+Fitted temperature T (from val split): 2.941
+ECE after temperature scaling: 0.0421
+Saved reliability diagram to results\calibration_llama_v2.png
+
+Saved summary to results\calibration_summary_v2.csv
+model  best_layer  test_auroc  ece_before  temperature  ece_after
+ qwen          20    0.902654    0.090845     3.511600   0.060967
+ phi3          17    0.912326    0.083325     3.113806   0.033562
+llama          12    0.906679    0.089173     2.940955   0.042082

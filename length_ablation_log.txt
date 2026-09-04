@@ -1,0 +1,24 @@
+
+=== Length ablation: qwen ===
+Length-only AUROC -- word count: 0.9733  char count: 0.9723
+Length bins (word count, quartile edges): [1.0, 2.0, 4.0, 10.0, 44.0] -> 4 usable bin(s)
+[best layer 20] saved probe AUROC=0.9858 | recomputed probe AUROC=0.9858 (sanity check, should match) | joint AUROC=0.9854 | probe p=2.22e-16 | length p=7.65e-03
+
+=== Length ablation: phi3 ===
+Length-only AUROC -- word count: 0.9733  char count: 0.9723
+Length bins (word count, quartile edges): [1.0, 2.0, 4.0, 10.0, 44.0] -> 4 usable bin(s)
+[best layer 20] saved probe AUROC=0.9873 | recomputed probe AUROC=0.9873 (sanity check, should match) | joint AUROC=0.9868 | probe p=1.11e-15 | length p=6.25e-02
+
+=== Length ablation: llama ===
+Length-only AUROC -- word count: 0.9733  char count: 0.9723
+Length bins (word count, quartile edges): [1.0, 2.0, 4.0, 10.0, 44.0] -> 4 usable bin(s)
+[best layer 11] saved probe AUROC=0.9892 | recomputed probe AUROC=0.9892 (sanity check, should match) | joint AUROC=0.9888 | probe p=0.00e+00 | length p=1.99e-01
+
+=== Length ablation summary (best layer per model) ===
+model  best_layer  probe_auroc  length_word_auroc  joint_auroc  probe_pvalue  length_pvalue
+ qwen          20     0.985759           0.973347     0.985375  2.220446e-16       0.007654
+ phi3          20     0.987287           0.973347     0.986800  1.110223e-15       0.062473
+llama          11     0.989194           0.973347     0.988812  0.000000e+00       0.199462
+
+Saved: length_ablation_summary.csv, length_ablation_layerwise.csv, length_ablation_binned.csv, length_ablation_joint.csv
+Saved plots: length_ablation_auroc_by_bin.png, length_ablation_comparison.png

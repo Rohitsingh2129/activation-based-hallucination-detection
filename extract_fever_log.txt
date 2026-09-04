@@ -1,0 +1,77 @@
+[transformers] `torch_dtype` is deprecated! Use `dtype` instead!
+Built 4000 examples from 2000 FEVER SUPPORTS + 2000 FEVER REFUTES claims
+
+=== Extracting FEVER activations: qwen ===
+Loading weights:   0%|          | 0/434 [00:00<?, ?it/s]Loading weights:   0%|          | 1/434 [00:00<03:15,  2.21it/s]Loading weights:  20%|##        | 88/434 [00:00<00:01, 187.40it/s]Loading weights:  28%|##8       | 123/434 [00:00<00:01, 216.30it/s]Loading weights:  36%|###5      | 155/434 [00:00<00:01, 232.56it/s]Loading weights:  43%|####2     | 186/434 [00:00<00:01, 222.37it/s]Loading weights:  49%|####9     | 213/434 [00:01<00:00, 233.79it/s]Loading weights:  56%|#####5    | 243/434 [00:01<00:00, 243.81it/s]Loading weights:  62%|######2   | 270/434 [00:01<00:00, 227.14it/s]Loading weights:  70%|#######   | 304/434 [00:01<00:00, 217.36it/s]Loading weights:  76%|#######5  | 328/434 [00:01<00:00, 218.19it/s]Loading weights:  84%|########3 | 364/434 [00:01<00:00, 241.69it/s]Loading weights:  90%|########9 | 390/434 [00:01<00:00, 221.87it/s]Loading weights:  97%|#########7| 423/434 [00:02<00:00, 227.66it/s]Loading weights: 100%|##########| 434/434 [00:02<00:00, 214.35it/s]
+  processed 200/4000
+  processed 400/4000
+  processed 600/4000
+  processed 800/4000
+  processed 1000/4000
+  processed 1200/4000
+  processed 1400/4000
+  processed 1600/4000
+  processed 1800/4000
+  processed 2000/4000
+  processed 2200/4000
+  processed 2400/4000
+  processed 2600/4000
+  processed 2800/4000
+  processed 3000/4000
+  processed 3200/4000
+  processed 3400/4000
+  processed 3600/4000
+  processed 3800/4000
+  processed 4000/4000
+Saved (4000, 37, 2048) to data\activations_fever_qwen.npz
+Label balance: 2000 hallucinated / 4000 total
+
+=== Extracting FEVER activations: phi3 ===
+Loading weights:   0%|          | 0/195 [00:00<?, ?it/s]Loading weights:   1%|          | 1/195 [00:00<00:47,  4.07it/s]Loading weights:   9%|8         | 17/195 [00:00<00:03, 56.47it/s]Loading weights:  15%|#4        | 29/195 [00:00<00:02, 66.69it/s]Loading weights:  21%|##1       | 41/195 [00:00<00:01, 78.96it/s]Loading weights:  27%|##7       | 53/195 [00:00<00:01, 87.11it/s]Loading weights:  32%|###2      | 63/195 [00:00<00:01, 83.81it/s]Loading weights:  37%|###6      | 72/195 [00:01<00:01, 75.62it/s]Loading weights:  43%|####2     | 83/195 [00:01<00:01, 76.18it/s]Loading weights:  49%|####8     | 95/195 [00:01<00:01, 82.83it/s]Loading weights:  54%|#####4    | 106/195 [00:01<00:01, 87.96it/s]Loading weights:  61%|######    | 118/195 [00:01<00:00, 93.15it/s]Loading weights:  66%|######5   | 128/195 [00:01<00:00, 93.67it/s]Loading weights:  71%|#######   | 138/195 [00:01<00:00, 88.68it/s]Loading weights:  76%|#######5  | 148/195 [00:01<00:00, 89.93it/s]Loading weights:  82%|########2 | 160/195 [00:01<00:00, 86.41it/s]Loading weights:  87%|########6 | 169/195 [00:02<00:00, 39.78it/s]Loading weights:  91%|#########1| 178/195 [00:02<00:00, 39.65it/s]Loading weights:  94%|#########4| 184/195 [00:02<00:00, 41.12it/s]Loading weights:  97%|#########7| 190/195 [00:03<00:00, 40.44it/s]Loading weights: 100%|##########| 195/195 [00:03<00:00, 61.53it/s]
+  processed 200/4000
+  processed 400/4000
+  processed 600/4000
+  processed 800/4000
+  processed 1000/4000
+  processed 1200/4000
+  processed 1400/4000
+  processed 1600/4000
+  processed 1800/4000
+  processed 2000/4000
+  processed 2200/4000
+  processed 2400/4000
+  processed 2600/4000
+  processed 2800/4000
+  processed 3000/4000
+  processed 3200/4000
+  processed 3400/4000
+  processed 3600/4000
+  processed 3800/4000
+  processed 4000/4000
+Saved (4000, 33, 3072) to data\activations_fever_phi3.npz
+Label balance: 2000 hallucinated / 4000 total
+
+=== Extracting FEVER activations: llama ===
+Loading weights:   0%|          | 0/254 [00:00<?, ?it/s]Loading weights:   0%|          | 1/254 [00:00<02:04,  2.04it/s]Loading weights:  19%|#8        | 48/254 [00:00<00:02, 97.15it/s]Loading weights:  26%|##6       | 67/254 [00:00<00:01, 110.55it/s]Loading weights:  33%|###3      | 84/254 [00:00<00:01, 115.59it/s]Loading weights:  40%|####      | 102/254 [00:01<00:01, 120.39it/s]Loading weights:  47%|####7     | 120/254 [00:01<00:01, 127.68it/s]Loading weights:  54%|#####3    | 137/254 [00:01<00:00, 137.93it/s]Loading weights:  60%|######    | 153/254 [00:01<00:00, 132.71it/s]Loading weights:  66%|######6   | 168/254 [00:01<00:00, 128.92it/s]Loading weights:  72%|#######2  | 183/254 [00:01<00:00, 127.48it/s]Loading weights:  79%|#######9  | 201/254 [00:01<00:00, 132.35it/s]Loading weights:  86%|########6 | 219/254 [00:01<00:00, 132.94it/s]Loading weights:  92%|#########1| 233/254 [00:02<00:00, 133.77it/s]Loading weights:  97%|#########7| 247/254 [00:02<00:00, 115.75it/s]Loading weights: 100%|##########| 254/254 [00:02<00:00, 117.27it/s]
+  processed 200/4000
+  processed 400/4000
+  processed 600/4000
+  processed 800/4000
+  processed 1000/4000
+  processed 1200/4000
+  processed 1400/4000
+  processed 1600/4000
+  processed 1800/4000
+  processed 2000/4000
+  processed 2200/4000
+  processed 2400/4000
+  processed 2600/4000
+  processed 2800/4000
+  processed 3000/4000
+  processed 3200/4000
+  processed 3400/4000
+  processed 3600/4000
+  processed 3800/4000
+  processed 4000/4000
+Saved (4000, 29, 3072) to data\activations_fever_llama.npz
+Label balance: 2000 hallucinated / 4000 total
